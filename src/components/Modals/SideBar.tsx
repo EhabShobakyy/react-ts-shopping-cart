@@ -71,7 +71,7 @@ export default function CartModal({
           </div>
           <Box>
             {Object.values(selectedProduct.items).map((item) => (
-              <ModalCards {...item} />
+              <ModalCards key={item.id} {...item} />
             ))}
           </Box>
         </Box>

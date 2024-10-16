@@ -36,8 +36,8 @@ export default function ModalsCards({
         borderRadius: "10px",
       }}
     >
-      <Grid container spacing={4}>
-        <Grid item xs={6}>
+      <Grid container spacing={0}>
+        <Grid item xs={7}>
           <CardMedia
             sx={{
               height: 140,
@@ -49,7 +49,7 @@ export default function ModalsCards({
             title={name}
           />
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={5}>
           <CardContent sx={{ pt: 0, pb: 0 }}>
             <Typography gutterBottom variant="h5">
               {name}
