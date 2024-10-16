@@ -1,7 +1,11 @@
+import { Box } from "@mui/material";
+import NavBar from "./components/Navbar/NavBar";
 function App() {
   return (
     <>
-      <h1>HI</h1>
+      <Box sx={{ p: 3 }}>
+        <NavBar />
+      </Box>
     </>
   );
 }
