@@ -74,6 +74,7 @@ export default function CartModal({
               <ModalCards key={item.id} {...item} />
             ))}
           </Box>
+          <Button variant="contained">Cart</Button>
         </Box>
       </Fade>
     </Modal>
